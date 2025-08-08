@@ -1,0 +1,50 @@
+Firewall : Firewall is a network security device (hardware software both) which controls incoming and outgoing traffic and according to security rules it accept, reject or drop that network connection or service.
+
+Types of firewall : Firewalls can be categorized based on there generation.
+
+1. Network Placement
+2. System protected
+3. Data filtering method.
+4. Form Factors
+
+How firewall filters traffic : firewall filtering process can broken down in these step.
+1. rule based inspection : Firewall have inbound and outbound rules organised into an access control list. according to rules, it take decision.
+
+2. packet examination : when data packets arrives, the firewall inspects its header, because header stores metadata.
+
+3. Rule matching : the firewall compares the packet's information against its rule set. it check rule set from top to bottom.
+
+4. decision making : The first rule that match with packet header information, decides firewall action.
+
+5. default action :  If packet does not match any rule them firewall apply default action which is deny or drop that packet
+
+
+
+Types of filtering 
+
+1. Packet filtering (Stateless) : It inspects every packet individually without considering its context.
+
+2. Stateful Inspection : This type of firewall keeps track of active connection and also inspect if a packet belongs to an established session with individual packet inspection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
